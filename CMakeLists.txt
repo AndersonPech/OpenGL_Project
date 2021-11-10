@@ -31,11 +31,21 @@ target_include_directories(${ACTIVITY} PUBLIC include)
 target_sources(${ACTIVITY}
         ${target}
         PRIVATE
+        include/ass2/camera.hpp
+        include/ass2/model.hpp
+        include/ass2/renderer.hpp
+        include/ass2/scene.hpp
+        include/ass2/light.hpp
+        include/ass2/animator.hpp
         include/ass2/memes.hpp
 
-        src/memes.cpp
-
+        src/camera.cpp
+        src/renderer.cpp
+        src/animator.cpp
         src/main.cpp
+        src/model.cpp
+        src/scene.cpp
+        src/memes.cpp
         )
 target_link_libraries(${ACTIVITY} PUBLIC ${COMMON_LIBS})
 target_compile_options(
