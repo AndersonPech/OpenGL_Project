@@ -37,8 +37,6 @@ scene_t make_scene() {
         {}
     };
 
-    
-   
     node_t angel {
         node_t::ANGEL,
         load_obj(A),

@@ -100,7 +100,7 @@ mesh_t upload_mesh(const std::vector<vertex_t> &vertices, const std::vector<inde
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 
-    return mesh_t{ vao, vbo, ibo, (GLuint) indices.size(), load_texture(p), load_texture("res/textures/crate_spec.jpg") };
+    return mesh_t{ vao, vbo, ibo, (GLuint) indices.size(), load_texture(p), load_texture("res/textures/pat.jpg") };
 }
 
 model_t make_volume_mesh(float a, float b, float c, const std::string &p) {
