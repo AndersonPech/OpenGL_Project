@@ -1,8 +1,5 @@
-#include <glm/glm.hpp>
-#include <glm/ext.hpp>
-
 #include <ass2/camera.hpp>
-#include <ass2/scene.hpp>
+#include <vector>
 
 namespace {
 

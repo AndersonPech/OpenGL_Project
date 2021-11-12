@@ -1,9 +1,5 @@
-#ifndef COMP3421_TUTORIAL_05_SCENE_HPP
-#define COMP3421_TUTORIAL_05_SCENE_HPP
-
-#include <glad/glad.h>
-
-#include <glm/ext.hpp>
+#ifndef COMP3421_ASS2_SCENE_HPP
+#define COMP3421_ASS2_SCENE_HPP
 
 #include <ass2/camera.hpp>
 #include <ass2/model.hpp>

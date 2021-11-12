@@ -1,9 +1,8 @@
-#ifndef COMP3421_TUTORIAL_05_ANIMATOR_HPP
-#define COMP3421_TUTORIAL_05_ANIMATOR_HPP
+#ifndef COMP3421_ASS2_ANIMATOR_HPP
+#define COMP3421_ASS2_ANIMATOR_HPP
 
 #include <glm/ext.hpp>
 
-#include <ass2/scene.hpp>
 #include <ass2/renderer.hpp>
 
 struct bspline_t {

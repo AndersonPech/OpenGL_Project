@@ -4,8 +4,7 @@
 
 #include <cmath>
 #include <stack>
-#include <ass2/scene.hpp>
-#include <ass2/renderer.hpp>
+
 // Repeat each animation every 10 seconds
 const float PERIOD = 10.f;
 float t = 0.0f;

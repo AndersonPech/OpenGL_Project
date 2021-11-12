@@ -8,11 +8,11 @@
 
 #include <chicken3421/chicken3421.hpp>
 
-#include <ass2/animator.hpp>
-#include <ass2/camera.hpp>
 #include <ass2/memes.hpp>
 #include <ass2/renderer.hpp>
 #include <ass2/scene.hpp>
+#include <ass2/animator.hpp>
+#include <ass2/camera.hpp>
 
 /**
  * Returns the difference in time between when this function was previously called and this call.

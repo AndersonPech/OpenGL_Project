@@ -1,10 +1,7 @@
-#include <ass2/scene.hpp>
-#include <vector>
-
-#include <chicken3421/chicken3421.hpp>
 #include <ass2/model.hpp>
 #include <ass2/scene.hpp>
-
+#include <vector>
+#include <chicken3421/chicken3421.hpp>
 
 const char *B = "res/objs/eva/Unit01.obj";
 const char *A = "res/objs/ramiel/ramiel.obj";

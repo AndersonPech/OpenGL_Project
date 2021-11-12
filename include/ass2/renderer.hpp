@@ -1,5 +1,5 @@
-#ifndef COMP3421_TUTORIAL_05_RENDERER_HPP
-#define COMP3421_TUTORIAL_05_RENDERER_HPP
+#ifndef COMP3421_ASS2_RENDERER_HPP
+#define COMP3421_ASS2_RENDERER_HPP
 
 #include <glad/glad.h>
 #include <glm/ext.hpp>

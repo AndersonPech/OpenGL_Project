@@ -1,14 +1,12 @@
-#ifndef COMP3421_TUTORIAL_05_MODEL_HPP
-#define COMP3421_TUTORIAL_05_MODEL_HPP
-
-#include <vector>
-#include <string>
+#ifndef COMP3421_ASS2_MODEL_HPP
+#define COMP3421_ASS2_MODEL_HPP
 
 #include <glad/glad.h>
-
 #include <glm/glm.hpp>
 #include <glm/ext.hpp>
 
+#include <vector>
+#include <string>
 
 const GLenum index_type = GL_UNSIGNED_INT;
 /**
