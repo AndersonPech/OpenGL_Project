@@ -54,7 +54,7 @@ Two sets of lights. direct which lights the scene and point which is red. In sha
 
 ### 3e: Explain what maps you have used and which objects they are on. Your application should clearly show the effect these maps are having on lighting. Include code references to maps on objects and vertices as well as lighting code that uses the maps.
 
-There is one specular map involved. This can be seen on the floor where it is red (warning for flashing lights). It's more obvious on the container where the red light touches. The texture is called create_spec.jpg and is applied in default.frag. In calcpointlight in the specular section. The object is loaded in renderer.cpp in make renderer in a GLuint called specular on line 31. 
+There is one specular map involved. This can be seen on the floor where it is red (warning for flashing lights). It's more obvious on the container where the red light touches. The texture is called pat.jpg and is applied in default.frag. In calcpointlight in the specular section. The object is loaded in renderer.cpp in make renderer in a GLuint called specular on line 31. 
 
 ## Section 4: Subjective Mark
 
