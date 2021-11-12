@@ -2,6 +2,7 @@
 
 If you think any of the questions within the sections are not applicable, please write "N/A".
 
+NOTE: if program doesn't run take out '#error OpenGL header already included, remove this include, glad already provides it' in glad.h in lib
 ## Section 1: Creation and Use of 3D Objects
 
 ### 1a: Show that you have created or imported at least one 3D object that is visible in your application. Include references to where this is implemented in your code.
