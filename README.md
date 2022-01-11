@@ -90,24 +90,5 @@ At some point Vscode/CLion will prompt you to choose a toolkit which is a set of
 
 To fetch the latest dependencies simply re-run the `fetch_deps.sh` script as outlined above.
 
-## 4. Adding your own CMake Targets
-
-We also provide the directory `playground/` for you to add your own CMake targets for you to hack away on your own. This folder has the exact same setup as the `exercises/` and `examples/` folders so you can look at those for further guidance.
-
-In the `playground/` folder you will find:
-- `chicken/` (example sub-directory)
-   - `res/` (add your own resources here.. e.g. models, shader code, images)
-   - `src/` (add your c++ code in here)
-   - `CMakeLists.txt` (new c++ files need to be specified in here, see comments in the file for more details)
-- `CMakeLists.txt` (add your own sub-directories in here, see comments in the file for more details)
-
-So to add your own target:
-1. Create a new folder in `playground/` with the same subdirectory structure as `chicken/`. Namely `src/` and `res/` folders as well as a `CMakeLists.txt` the same as `chicken/CMakeLists.txt`. Alternatively you can just copy and paste the `chicken/` folder and give it a different name.
-2. Add a `main.cpp` file to the `src/` folder with some basic code of your choice that prints something.
-3. The `CMakeLists.txt` uses the name of folder as the target name. So you must also add `add_subdirectory(<name_of_your_folder>)` to the `playground/CMakeLists.txt` file.
-4. CMake Configure the project. You can do this on VSCode by (Ctrl/Command)-Shift-P then searching and selecting `CMake: Configure`. If you are using CLion it should automatically configure for you.
-5. You should now be able to find the name of the folder as one of the targets available. Select that target and run. (VSCode: Make sure you kill any CMake/launch terminal before running)
-
-
 
 Reconfigure and run. It should work now if it didn't before :)
